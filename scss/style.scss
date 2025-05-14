@@ -1,0 +1,21 @@
+$primary-color: #3a68b8;
+
+@import "./navbar";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #020a18;
+}
+
+.container {
+  max-width: 1327px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
